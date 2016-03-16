@@ -1,0 +1,45 @@
+[
+  {
+    "name" : "signUp",
+    "title" : "Sign Up",
+    "elements" : [
+      {
+        "name" : "firstName",
+        "labelName" : "First Name",
+        "type" : "text"
+      },
+      {
+        "name" : "middleName",
+        "labelName" : "Middle Name",
+        "type" : "text"
+      },
+      {
+        "name" : "gender",
+        "labelName" : "Gender",
+        "type" : "radio",
+        "labels" : ["Male", "Female"]
+      },
+      {
+        "name" : "phone",
+        "labelName" : "Phone",
+        "type" : "number"
+      }
+    ]
+  },
+  {
+    "name" : "signIn",
+    "title" : "Sign In",
+    "elements" : [
+      {
+        "name" : "username",
+        "labelName" : "Username",
+        "type" : "text"
+      },
+      {
+        "name" : "password",
+        "labelName" : "Password",
+        "type" : "password"
+      }
+    ]
+  }
+]
